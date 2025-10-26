@@ -18,10 +18,10 @@ def bubbleSort(arr):
                 arr[j], arr[j+1] = arr[j+1], arr[j] 
   
 # Driver code to test above 
-arr = [64, 34, 25, 12, 22, 11, 90] 
+arr = [64, 34, 25, 12, 32, 11, 90] 
   
 bubbleSort(arr) 
 #printing sorted array  
 print ("Sorted array is:") 
 for i in range(len(arr)): 
-    print ("%d" %arr[i]),  
+    print ("%d" %arr[i])
